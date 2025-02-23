@@ -1,0 +1,114 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+body { 
+    background: #ffffff; 
+    font-family: 'Work Sans'; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+} 
+
+.logo {
+    display: block;
+    width: 120px;
+    margin-bottom: 24px;
+} 
+
+.welcome-message {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 16px;
+} 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+} 
+
+form { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px; 
+    width: 100%;
+    max-height: 1028;
+    gap: 20px; 
+    background: rgba(255, 255, 255, 0.95); 
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+} 
+
+input { 
+    border-radius: 12px; 
+    outline: none; 
+    border: 1px solid #afb1b6; 
+    padding: 20px 14px 14px; 
+    width: 50%; 
+    margin-bottom: 16px;
+    font-size: 16px;
+} 
+
+button { 
+    width: 50%; 
+    background: #000000; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 16px; 
+    cursor: pointer; 
+    font-size: 16px;
+    transition: background 200ms ease-in-out; 
+    margin-top: 16px;
+} 
+
+button:hover { 
+    background: #333333;
+} 
+
+.account { 
+    font-size: 14px; 
+    color: #121212; 
+    text-align: center;
+    margin-top: 24px;
+} 
+
+.account a { 
+    font-size: 16px; 
+    color: blue; 
+} 
+
+label { 
+    font-size: 14px; 
+    color: #61466b; 
+    display: block;
+    margin-bottom: 8px;
+} 
+
+.input-with-icon { 
+    position: relative; 
+    width: 100%;
+    margin-bottom: 16px;
+} 
+
+.input-with-icon img { 
+    position: absolute; 
+    top: 40%; 
+    right: 700px; 
+    transform: translateY(-50%);
+    cursor: pointer; 
+    width: 24px; 
+}
+
+.input-with-icon {
+    margin-left: 680px; 
+}
